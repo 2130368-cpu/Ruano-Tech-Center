@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | Ruano Tech Clutch Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Ruano Tech Clutch Center"></a>
+            <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="servicios.html" class="active">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container">
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones completas para el cuidado de tu vehículo</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="products-grid">
+                <div class="card">
+                    <img src="images/tools.jpg" alt="Mantenimiento">
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Cambio de aceite, filtros, revisión de niveles, batería, luces y chequeo general. Evita problemas mayores con revisiones a tiempo.</p>
+                </div>
+                <div class="card">
+                    <img src="images/taller3.jpg" alt="Frenos">
+                    <h3>Frenos y Suspensión</h3>
+                    <p>Revisión y reparación de frenos, pastillas, discos, amortiguadores y sistema de suspensión. Diagnóstico confiable y mano de obra profesional.</p>
+                </div>
+                <div class="card">
+                    <img src="images/limpieza-inyectores.png" alt="Inyectores">
+                    <h3>Limpieza de Inyectores</h3>
+                    <p>Servicio rápido y garantizado. Menos consumo de combustible, más potencia y mejor rendimiento del motor.</p>
+                </div>
+                <div class="card">
+                    <img src="images/Taller.jpg" alt="Afinamiento">
+                    <h3>Afinamiento de Motor</h3>
+                    <p>Recupera la fuerza y el ahorro de combustible. Ideal cuando sientes pérdida de potencia o consumo elevado.</p>
+                </div>
+                <div class="card">
+                    <img src="images/diagnostico.jpg" alt="Diagnóstico General">
+                    <h3>Diagnóstico General</h3>
+                    <p>Identificamos fallas de manera precisa para darte la solución correcta desde el principio y evitar reparaciones innecesarias.</p>
+                </div>
+                <div class="card">
+                    <img src="images/reparaciones.jpg" alt="Reparaciones Generales">
+                    <h3>Reparaciones Generales</h3>
+                    <p>Sistema eléctrico, motor, transmisión básica, fugas y otros trabajos de mecánica automotriz con calidad garantizada.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="https://wa.me/50432426388" class="btn btn-whatsapp" target="_blank">Agenda tu servicio ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ruano Tech Clutch Center. Todos los derechos reservados.</p>
+            <p>San Pedro Sula, Honduras | <a href="https://wa.me/50432426388">+504 3242-6388</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

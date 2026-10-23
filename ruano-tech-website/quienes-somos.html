@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos | Ruano Tech Clutch Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Ruano Tech Clutch Center"></a>
+            <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quienes-somos.html" class="active">Quiénes Somos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container">
+            <h1>Quiénes Somos</h1>
+            <p>Tu taller de confianza en San Pedro Sula desde 2023</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="about-content">
+                <div>
+                    <h2 style="text-align: left;">Nuestra Historia</h2>
+                    <p>Ruano Tech Center nació en 2023 con el objetivo de ofrecer un servicio de mecánica automotriz de calidad, transparente y confiable en el corazón de San Pedro Sula.</p>
+                    <p>Ubicados en Barrio Guamilito, nos hemos convertido en el taller de confianza para muchos sampedranos que buscan atención profesional, diagnósticos precisos y reparaciones duraderas.</p>
+                    <p>Creemos que tu vehículo merece el mejor cuidado. Por eso combinamos experiencia técnica, herramientas adecuadas y un trato honesto en cada trabajo que realizamos.</p>
+                </div>
+                <div>
+                    <img src="images/quienes-somos.png" alt="Taller Ruano Tech Center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: white;">
+        <div class="container">
+            <h2>Misión y Visión</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <h3>Misión</h3>
+                    <p>Brindar servicios de mantenimiento y reparación automotriz de alta calidad, con diagnóstico confiable y atención personalizada, para que nuestros clientes viajen con seguridad y tranquilidad.</p>
+                </div>
+                <div class="card">
+                    <h3>Visión</h3>
+                    <p>Ser el taller de referencia en San Pedro Sula, reconocido por la confianza, profesionalismo y excelencia en el cuidado de vehículos.</p>
+                </div>
+                <div class="card">
+                    <h3>Valores</h3>
+                    <p>Confianza, calidad, transparencia, profesionalismo y compromiso con el cliente. Cada vehículo es tratado como si fuera propio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Nuestro Compromiso</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 30px;">No dejes tu vehículo en manos de cualquiera. En Ruano Tech Center trabajamos con el lema de calidad y confianza en cada detalle. Desde el diagnóstico hasta la entrega, te mantenemos informado y te damos la seguridad de un trabajo bien hecho.</p>
+            <div style="text-align: center;">
+                <a href="contacto.html" class="btn">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ruano Tech Clutch Center. Todos los derechos reservados.</p>
+            <p>San Pedro Sula, Honduras | <a href="https://wa.me/50432426388">+504 3242-6388</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

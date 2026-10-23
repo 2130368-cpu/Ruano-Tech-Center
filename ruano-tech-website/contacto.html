@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Ruano Tech Clutch Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Ruano Tech Clutch Center"></a>
+            <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container">
+            <h1>Contáctanos</h1>
+            <p>Estamos listos para atender tu vehículo</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h2 style="text-align: left;">Información de Contacto</h2>
+                    <p><strong>Dirección:</strong><br>
+                    Barrio Guamilito, 10 Avenida entre 4ta y 5ta Calle<br>
+                    San Pedro Sula, Cortés, Honduras</p>
+                    
+                    <p><strong>Teléfono / WhatsApp:</strong><br>
+                    <a href="https://wa.me/50432426388" target="_blank">+504 3242-6388</a></p>
+                    
+                    <p><strong>Horario de Atención:</strong><br>
+                    Lunes a Viernes: 8:00 AM - 5:00 PM<br>
+                    Sábados: 8:00 AM - 3:00 PM<br>
+                    Domingos: Cerrado</p>
+                    
+                    <p style="margin-top: 30px;">
+                        <a href="https://wa.me/50432426388" class="btn btn-whatsapp" target="_blank">Escribir por WhatsApp</a>
+                    </p>
+                    <p style="margin-top: 15px;">
+                        <a href="https://instagram.com/ruanotech_center" target="_blank" style="color: var(--primary);">Síguenos en Instagram</a>
+                    </p>
+                    <p style="margin-top: 10px;">
+                    <a href="https://www.facebook.com/p/RuanoTech-61557183457480/" target="_blank" style="color: var(--primary);">Síguenos en Facebook</a>
+                    </p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.5!2d-88.025!3d15.505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDMwJzE4LjAiTiA4OMKwMDEnMzAuMCJX!5e0!3m2!1ses!2shn!4v1" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ruano Tech Clutch Center. Todos los derechos reservados.</p>
+            <p>San Pedro Sula, Honduras | <a href="https://wa.me/50432426388">+504 3242-6388</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
